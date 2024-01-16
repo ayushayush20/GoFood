@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express')
 //const punycode = require('punycode');
 const app = express()
-const port = process.env.PORT || 5000;
+const port = 5000;
 const mongoDB = require('./db')
 mongoDB();
 
